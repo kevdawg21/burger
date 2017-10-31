@@ -1,12 +1,10 @@
 ### Schema
 
-CREATE DATABASE cat_db;
-USE cat_db;
-
-CREATE TABLE cats
-(
-	id int NOT NULL AUTO_INCREMENT,
-	name varchar(255) NOT NULL,
-	sleepy BOOLEAN DEFAULT false,
-	PRIMARY KEY (id)
+create database burgers_db;
+use burgers_db;
+create table burgers (
+	id int(10) primary key not null auto_increment,
+	burger_name varchar(50),
+	devoured boolean,
+	date: date
 );
