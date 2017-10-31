@@ -1,0 +1,29 @@
+li {
+  padding: 5px;
+  margin: 5px;
+  width: 300px;
+  background: #faebd7;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+.change-eat {
+	float: right;
+}
+
+.burg {
+	float: right;
+	margin-right:20px;
+}
